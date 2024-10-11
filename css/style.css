@@ -1,0 +1,76 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+*{
+    margin:0 auto;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--Grey900);
+    font-family:"Inter";
+    color:var(--White);
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+p{
+    font-size: 14px;
+}
+
+
+main{
+    height: 450px;
+    width: 35%;
+    max-width: 17em;
+    min-width: 14em;
+    background-color: var(--Grey800);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+main img{
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 20px;
+    display:flex;
+}
+#name{
+    text-align: center;
+    font-weight: 400;
+}
+#information{
+    color:var(--Green);
+    padding: 3% 0 7% 0;
+    text-align: center;
+    font-weight: 600;
+}
+#subinformation{
+    text-align: center;
+    padding-bottom: 7%;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:var(--White);
+    font-size: 14px;
+    
+}
+li:hover{
+    color:var(--Grey900);
+    background-color: var(--Green);
+}
+li{
+    padding:10px;    
+    margin-bottom: 10px;
+    background-color: var(--Grey700);
+    border-radius: 5px;
+    text-align: center;
+}
